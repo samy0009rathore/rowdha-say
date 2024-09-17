@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/*************** FIRST PAGE STYLE ************************/
+
+.section.first {
+    display: flex;
+    background-image: url(../images/asset-home.png);
+    background-repeat: no-repeat;
+    background-position: bottom 10% right 50%;
+    background-size: contain;
+}
+
+img.logo {
+    margin: auto;
+    max-width: 50%;
+}
+
+/*************** END FIRST PAGE STYLE ************************/
+
+/*************** SECOND PAGE STYLE ************************/
+
+.section.second {
+    display: flex;
+    background-image: url(../images/rowdha-intro-background-1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: bottom 10% right 50%; */
+    background-size: cover;
+}
+
+.section.second.row .col {
+    /* height: 100%; */
+}
+
+.section.second {
+    .rhs {
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 100%;
+    }
+
+    .rhs span {
+        /* align-self: flex-end; */
+    }
+}
+
+/*************** END SECOND PAGE STYLE ************************/
+
+/*************** THIRD PAGE STYLE ************************/
+
+.section.third {
+    display: flex;
+    background-image: url(../images/rowdha-intro-background-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: top 0% right 50%;
+    background-size: cover;
+}
+
+.section.third.row .col {
+    height: 100%;
+}
+
+.section.third {
+    .lhs {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+/*************** END THIRD PAGE STYLE ************************/
+
+/*************** FOURTH PAGE STYLE ************************/
+
+.section.fourth {
+    display: flex;
+    background-image: url(../images/services-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top 0% right 50%;
+    background-size: cover
+}
+
+/*************** END FOURTH PAGE STYLE ************************/
+
+/*************** FIFTH PAGE STYLE ************************/
+
+.fifth img {
+    max-width: 100%;
+    padding: 10%;
+}
+
+/*************** END FIFTH PAGE STYLE ************************/
+
+/*************** LAST PAGE STYLE ************************/
+
+/*************** END LAST PAGE STYLE ************************/
