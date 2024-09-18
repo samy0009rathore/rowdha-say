@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rowdha-say/static/css/main.7941943f.css",
+    "main.css": "/rowdha-say/static/css/main.6b5b6072.css",
     "main.js": "/rowdha-say/static/js/main.acf79e4f.js",
     "static/js/453.421f77bc.chunk.js": "/rowdha-say/static/js/453.421f77bc.chunk.js",
     "static/media/rowdha-intro-background-2.jpeg": "/rowdha-say/static/media/rowdha-intro-background-2.a6d055009216c1c1cc0f.jpeg",
@@ -12,12 +12,12 @@
     "static/media/asset-home.png": "/rowdha-say/static/media/asset-home.ff690218d673c1798e10.png",
     "static/media/logo.png": "/rowdha-say/static/media/logo.8536185bd7f450dfe5ac.png",
     "index.html": "/rowdha-say/index.html",
-    "main.7941943f.css.map": "/rowdha-say/static/css/main.7941943f.css.map",
+    "main.6b5b6072.css.map": "/rowdha-say/static/css/main.6b5b6072.css.map",
     "main.acf79e4f.js.map": "/rowdha-say/static/js/main.acf79e4f.js.map",
     "453.421f77bc.chunk.js.map": "/rowdha-say/static/js/453.421f77bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7941943f.css",
+    "static/css/main.6b5b6072.css",
     "static/js/main.acf79e4f.js"
   ]
 }
