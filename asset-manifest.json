@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.a822c762.css",
-    "main.js": "/my-website/static/js/main.c303365d.js",
-    "static/js/453.421f77bc.chunk.js": "/my-website/static/js/453.421f77bc.chunk.js",
-    "static/media/rowdha-intro-background-2.jpeg": "/my-website/static/media/rowdha-intro-background-2.a6d055009216c1c1cc0f.jpeg",
-    "static/media/Marion.ttc": "/my-website/static/media/Marion.3f2892841a2245dcbf94.ttc",
-    "static/media/client-full-list.png": "/my-website/static/media/client-full-list.61325b1e6e07203b46dc.png",
-    "static/media/rowdha-intro-background-1.jpg": "/my-website/static/media/rowdha-intro-background-1.4f32dd44e9aa7669a882.jpg",
-    "static/media/services-background.jpg": "/my-website/static/media/services-background.dd17de5ef557609323ab.jpg",
-    "static/media/Dubai-Regular.otf": "/my-website/static/media/Dubai-Regular.f61f1276274cf55a1972.otf",
-    "static/media/asset-home.png": "/my-website/static/media/asset-home.ff690218d673c1798e10.png",
-    "static/media/logo.png": "/my-website/static/media/logo.8536185bd7f450dfe5ac.png",
-    "index.html": "/my-website/index.html",
-    "main.a822c762.css.map": "/my-website/static/css/main.a822c762.css.map",
-    "main.c303365d.js.map": "/my-website/static/js/main.c303365d.js.map",
-    "453.421f77bc.chunk.js.map": "/my-website/static/js/453.421f77bc.chunk.js.map"
+    "main.css": "/rowdha-say/static/css/main.e8e7b95f.css",
+    "main.js": "/rowdha-say/static/js/main.acf79e4f.js",
+    "static/js/453.421f77bc.chunk.js": "/rowdha-say/static/js/453.421f77bc.chunk.js",
+    "static/media/rowdha-intro-background-2.jpeg": "/rowdha-say/static/media/rowdha-intro-background-2.a6d055009216c1c1cc0f.jpeg",
+    "static/media/Marion.ttc": "/rowdha-say/static/media/Marion.3f2892841a2245dcbf94.ttc",
+    "static/media/client-full-list.png": "/rowdha-say/static/media/client-full-list.61325b1e6e07203b46dc.png",
+    "static/media/rowdha-intro-background-1.jpg": "/rowdha-say/static/media/rowdha-intro-background-1.4f32dd44e9aa7669a882.jpg",
+    "static/media/services-background.jpg": "/rowdha-say/static/media/services-background.dd17de5ef557609323ab.jpg",
+    "static/media/Dubai-Regular.otf": "/rowdha-say/static/media/Dubai-Regular.f61f1276274cf55a1972.otf",
+    "static/media/asset-home.png": "/rowdha-say/static/media/asset-home.ff690218d673c1798e10.png",
+    "static/media/logo.png": "/rowdha-say/static/media/logo.8536185bd7f450dfe5ac.png",
+    "index.html": "/rowdha-say/index.html",
+    "main.e8e7b95f.css.map": "/rowdha-say/static/css/main.e8e7b95f.css.map",
+    "main.acf79e4f.js.map": "/rowdha-say/static/js/main.acf79e4f.js.map",
+    "453.421f77bc.chunk.js.map": "/rowdha-say/static/js/453.421f77bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a822c762.css",
-    "static/js/main.c303365d.js"
+    "static/css/main.e8e7b95f.css",
+    "static/js/main.acf79e4f.js"
   ]
 }
