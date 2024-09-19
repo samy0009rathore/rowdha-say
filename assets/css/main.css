@@ -40,12 +40,12 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f4fafd;
+  --background-color: #f9eddf;
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #040b14;
+  --background-color: #242424;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #151f2b;
@@ -155,14 +155,21 @@ h6 {
   overflow-y: auto;
   z-index: 997;
   border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  visibility: hidden; /* We'll test hidden sidebar later */
+}
+
+.header {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 15px 0;
+  transition: all 0.5s;
+  z-index: 997;
 }
 
 .header .profile-img img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  width: 90%;
+  /* border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%); */
 }
 
 .header .logo {
@@ -180,6 +187,11 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+}
+
+h1.sitename {
+  font-family: "Calibri Light";
+  font-weight: lighter !important;
 }
 
 .header .social-links {
@@ -210,7 +222,7 @@ h6 {
 
   .header~main,
   .header~#footer {
-    /* margin-left: 300px; */
+    margin-left: 300px;
   }
 }
 
@@ -553,7 +565,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+.hero img, .hero video {
   position: absolute;
   inset: 0;
   display: block;
