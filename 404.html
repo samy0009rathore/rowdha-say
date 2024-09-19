@@ -1,0 +1,11 @@
+<script type="text/javascript">
+ // This script checks if the current pathname is different from the root
+ // If so, it will redirect the user back to the root, letting React handle routing
+ (function() {
+   var pathname = window.location.pathname;
+   var redirectUrl = '/rowdha-say' + pathname;
+   if (pathname !== '/') {
+     window.location.replace(redirectUrl);
+   }
+ })();
+</script>
