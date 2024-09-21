@@ -52,7 +52,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9eddf;
+  --background-color: #e9ecef;
   --surface-color: #ffffff;
 }
 
@@ -208,6 +208,10 @@ h1.sitename {
 
 span.dim {
   opacity: 0.6;
+}
+
+span.dimmer {
+  opacity: 0.3;
 }
 
 .header .social-links {
@@ -689,6 +693,18 @@ section,
   line-height: 0;
 }
 
+.about a.page-link {
+  font-style: normal;
+  display: inline;
+  padding: 5px 10px;
+  background: #e9ecef;
+  border-radius: 5px;
+}
+
+.about a.page-link:hover {
+  background: #adb5bd;
+}
+
 .about2 {
   position: relative;
 }
@@ -1014,6 +1030,10 @@ section,
 .services .service-item .description {
   line-height: 24px;
   font-size: 14px;
+}
+
+.services p.note {
+  font-weight: 300;
 }
 
 /*--------------------------------------------------------------
