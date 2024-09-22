@@ -1034,6 +1034,8 @@ section,
 
 .services p.note {
   font-weight: 300;
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 /*--------------------------------------------------------------
