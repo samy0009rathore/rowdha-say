@@ -1254,6 +1254,11 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+h1.page-name {
+  font-family: "Calibri Light";
+  font-weight: lighter !important;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1303,13 +1308,29 @@ section,
 
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 20px;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.portfolio-details h1 {
+  font-weight: 300;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-weight: 300;
+}
+
+.portfolio-details .portfolio-description h3 {
+  font-weight: 300;
+}
+
+.portfolio-details .portfolio-description h4 {
+  font-weight: 300;
 }
 
 /*--------------------------------------------------------------
