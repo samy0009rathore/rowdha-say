@@ -216,7 +216,7 @@ hr {
 h6, h5, h4, h3, h2, h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 300; /* Client Change */
+  font-weight: 300;
   line-height: 1.2;
   color: var(--bs-heading-color);
 }

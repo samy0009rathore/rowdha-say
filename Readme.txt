@@ -1,6 +1,5 @@
-Thanks for downloading this template!
-
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Website Name: Rowdha SAY
+URL: https://rowdhasay.com
+Created: September 23 2024
+Author: Sourabh Singh Rathore
+Email: samy0009rathore@gmail.com

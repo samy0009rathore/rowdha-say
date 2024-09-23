@@ -18,35 +18,24 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root {
-  --background-color: #ffffff;
-  /* Background color for the entire website, including individual sections */
-  --default-color: #272829;
-  /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #050d18;
-  /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #77777a;
-  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff;
-  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff;
-  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root { 
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #77777a; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #a8a9b4;
+  --nav-color: #a8a9b4;  
   /* The default color of the main navmenu links */
-  --nav-hover-color: #ffffff;
-  /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #040b14;
-  /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #040b14;
-  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #a8a9b4;
-  /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ffffff;
-  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #040b14; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #040b14; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #a8a9b4; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #ffffff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -181,7 +170,6 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 90%;
-  /* border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%); */
 }
 
 .header .logo {
@@ -294,7 +282,6 @@ span.dimmer {
 .navmenu ul {
   list-style: none;
   padding: 0 0 20px 20px;
-  /* Self Change */
   margin: 0;
 }
 
@@ -553,7 +540,6 @@ section,
 .section-title h2 {
   font-size: 32px;
   font-weight: 300;
-  /* Client Change */
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -565,7 +551,6 @@ section,
   display: block;
   width: 140px;
   height: 10px;
-  /* background: var(--accent-color); */
   left: -10px;
   bottom: 12px;
   background-image: url(../img/asset1.png);
@@ -662,12 +647,10 @@ section,
 --------------------------------------------------------------*/
 .about .content h1 {
   font-weight: 300;
-  /* Client Change */
 }
 
 .about .content h2 {
   font-weight: 300;
-  /* Client Change */
   font-size: 24px;
 }
 
