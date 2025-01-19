@@ -1015,7 +1015,7 @@ section,
   font-size: 14px;
 }
 
-.services p.note {
+.services p.note, span.sub-note {
   font-weight: 300;
   font-size: 0.8rem;
   font-style: italic;
