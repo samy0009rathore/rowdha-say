@@ -1392,3 +1392,20 @@ h1.page-name {
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.client-list-mobile-view{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){ 
+  .client-list-normal-view{
+    display: none;
+  }
+
+  .client-list-mobile-view{
+    display: block;
+  }
+}
